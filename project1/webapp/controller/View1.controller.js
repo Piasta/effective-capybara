@@ -30,7 +30,7 @@ sap.ui.define([
             if (oInput.getId() === this.createId("phoneInput")) {
                 if (!phonePattern.test(sValue)) {
                     oInput.setValueState("Error");
-                    oInput.setValueStateText("Invalid phone number format. Use format 123-456-789.");
+                    oInput.setValueStateText("Niepoprawny format. Użyj formatu 123-456-789.");
                 } else {
                     oInput.setValueState("None");
                 }
@@ -39,7 +39,7 @@ sap.ui.define([
             if (oInput.getId() === this.createId("emailInput")) {
                 if (!emailPattern.test(sValue)) {
                     oInput.setValueState("Error");
-                    oInput.setValueStateText("Invalid email format.");
+                    oInput.setValueStateText("Email jest nieprawidłowy.");
                 } else {
                     oInput.setValueState("None");
                 }
@@ -77,7 +77,7 @@ sap.ui.define([
                 sPhone = oView.byId("phoneInput").getValue();
 
             if (!sFirstName || !sLastName || !sPosition) {
-                MessageToast.show("Please fill in required fields.");
+                MessageToast.show("Wypełnij wymagane pola.");
                 return;
             }
 
@@ -88,13 +88,13 @@ sap.ui.define([
                 "Position": sPosition,
                 "Email": sEmail,
                 "Phone": sPhone,
-                "Description": "Newly added employee."
+                "Description": "Nowy pracownik."
             };
 
             aEmployees.push(newEmployee);
             oModel.setProperty("/Employees", aEmployees);
 
-            MessageToast.show("Employee added!");
+            MessageToast.show("Pracownik dodany!");
             this._clearForm();
             this.onCancelEmployee();
         },
@@ -151,7 +151,7 @@ sap.ui.define([
 
             this.getView().byId("removeEmployeeBtn").setEnabled(false);
 
-            MessageToast.show("Employee deleted successfully.");
+            MessageToast.show("Usunięto pracownika.");
         },
 
         onItemSelected: function () {

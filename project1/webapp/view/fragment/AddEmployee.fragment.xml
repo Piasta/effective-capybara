@@ -8,19 +8,19 @@
                 <Label text="Nazwisko" required="true" />
                 <Input id="lastNameInput"/>
 
-                <Label text="Position" required="true"/>
+                <Label text="Stanowisko" required="true"/>
                 <Input id="positionInput"/>
 
                 <Label text="Email" type="Email" />
                 <Input id="emailInput" liveChange="onInputLiveChange"/>
 
-                <Label text="Phone" />
+                <Label text="Telefon" />
                 <Input id="phoneInput" placeholder="123-456-789" liveChange="onInputLiveChange" />
             </VBox>
         </content>
         <buttons>
-            <Button text="Save" type="Emphasized" press="onSaveEmployee"/>
-            <Button text="Cancel" press="onCancelEmployee"/>
+            <Button text="Zapisz" type="Emphasized" press="onSaveEmployee"/>
+            <Button text="Anuluj" press="onCancelEmployee"/>
         </buttons>
     </Dialog>
 </core:FragmentDefinition>

@@ -1,184 +1,230 @@
 {
     "Employees": [
-        {
-            "ID": "1",
-            "FirstName": "Jan",
-            "LastName": "Kowalski",
-            "Position": "Developer",
-            "Email": "jan.kowalski@example.com",
-            "Phone": "123-456-789",
-            "Description": "Jan is responsible for writing and maintaining code for software applications."
-        },
-        {
-            "ID": "2",
-            "FirstName": "Anna",
-            "LastName": "Nowak",
-            "Position": "Project Manager",
-            "Email": "anna.nowak@example.com",
-            "Phone": "234-567-890",
-            "Description": "Anna oversees and manages the development of projects from start to finish, ensuring they meet deadlines and budgets."
-        },
-        {
-            "ID": "3",
-            "FirstName": "Piotr",
-            "LastName": "Wiśniewski",
-            "Position": "QA Engineer",
-            "Email": "piotr.wisniewski@example.com",
-            "Phone": "345-678-901",
-            "Description": "Piotr tests software to find bugs and ensures the product is working as intended."
-        },
-        {
-            "ID": "4",
-            "FirstName": "Maria",
-            "LastName": "Dąbrowska",
-            "Position": "HR Specialist",
-            "Email": "maria.dabrowska@example.com",
-            "Phone": "456-789-012",
-            "Description": "Maria handles recruitment, employee relations, and ensures compliance with HR policies."
-        },
-        {
-            "ID": "5",
-            "FirstName": "Tomasz",
-            "LastName": "Lewandowski",
-            "Position": "DevOps Engineer",
-            "Email": "tomasz.lewandowski@example.com",
-            "Phone": "567-890-123",
-            "Description": "Tomasz manages the infrastructure and deployment pipelines to improve the development and operations workflows."
-        },
-        {
-            "ID": "6",
-            "FirstName": "Alicja",
-            "LastName": "Zielińska",
-            "Position": "UX Designer",
-            "Email": "alicja.zielinska@example.com",
-            "Phone": "678-901-234",
-            "Description": "Alicja designs user-friendly interfaces and ensures a positive user experience for applications."
-        },
-        {
-            "ID": "7",
-            "FirstName": "Krzysztof",
-            "LastName": "Szymański",
-            "Position": "Software Architect",
-            "Email": "krzysztof.szymanski@example.com",
-            "Phone": "789-012-345",
-            "Description": "Krzysztof designs the structure and architecture of software systems, ensuring they are scalable and efficient."
-        },
-        {
-            "ID": "8",
-            "FirstName": "Ewa",
-            "LastName": "Wójcik",
-            "Position": "Business Analyst",
-            "Email": "ewa.wojcik@example.com",
-            "Phone": "890-123-456",
-            "Description": "Ewa analyzes business needs and translates them into technical requirements for the development team."
-        },
-        {
-            "ID": "9",
-            "FirstName": "Michał",
-            "LastName": "Kamiński",
-            "Position": "Scrum Master",
-            "Email": "michal.kaminski@example.com",
-            "Phone": "901-234-567",
-            "Description": "Michał facilitates Agile processes, ensures teams follow Scrum practices, and removes obstacles."
-        },
-        {
-            "ID": "10",
-            "FirstName": "Natalia",
-            "LastName": "Jankowska",
-            "Position": "Data Analyst",
-            "Email": "natalia.jankowska@example.com",
-            "Phone": "012-345-678",
-            "Description": "Natalia analyzes data to provide insights that help the company make informed business decisions."
-        },
-        {
-            "ID": "11",
-            "FirstName": "Marcin",
-            "LastName": "Mazur",
-            "Position": "Network Administrator",
-            "Email": "marcin.mazur@example.com",
-            "Phone": "123-456-789",
-            "Description": "Marcin manages and maintains the company's network infrastructure to ensure reliable and secure connectivity."
-        },
-        {
-            "ID": "12",
-            "FirstName": "Karolina",
-            "LastName": "Kaczmarek",
-            "Position": "Marketing Specialist",
-            "Email": "karolina.kaczmarek@example.com",
-            "Phone": "234-567-890",
-            "Description": "Karolina plans and executes marketing strategies to promote the company’s products and services."
-        },
-        {
-            "ID": "13",
-            "FirstName": "Grzegorz",
-            "LastName": "Czarnecki",
-            "Position": "System Administrator",
-            "Email": "grzegorz.czarnecki@example.com",
-            "Phone": "345-678-901",
-            "Description": "Grzegorz manages and maintains the company's IT systems, ensuring they are running smoothly."
-        },
-        {
-            "ID": "14",
-            "FirstName": "Magdalena",
-            "LastName": "Sikora",
-            "Position": "Copywriter",
-            "Email": "magdalena.sikora@example.com",
-            "Phone": "456-789-012",
-            "Description": "Magdalena writes and edits content for websites, advertisements, and other marketing materials."
-        },
-        {
-            "ID": "15",
-            "FirstName": "Paweł",
-            "LastName": "Witkowski",
-            "Position": "IT Support",
-            "Email": "pawel.witkowski@example.com",
-            "Phone": "567-890-123",
-            "Description": "Paweł provides technical support to employees, troubleshooting and resolving IT-related issues."
-        },
-        {
-            "ID": "16",
-            "FirstName": "Joanna",
-            "LastName": "Baran",
-            "Position": "Frontend Developer",
-            "Email": "joanna.baran@example.com",
-            "Phone": "678-901-234",
-            "Description": "Joanna develops the user-facing part of applications, ensuring they are visually appealing and functional."
-        },
-        {
-            "ID": "17",
-            "FirstName": "Adrian",
-            "LastName": "Król",
-            "Position": "Backend Developer",
-            "Email": "adrian.krol@example.com",
-            "Phone": "789-012-345",
-            "Description": "Adrian builds and maintains the server-side logic, databases, and APIs that power applications."
-        },
-        {
-            "ID": "18",
-            "FirstName": "Sylwia",
-            "LastName": "Górska",
-            "Position": "Graphic Designer",
-            "Email": "sylwia.gorska@example.com",
-            "Phone": "890-123-456",
-            "Description": "Sylwia creates visual concepts, graphics, and designs for digital and print media."
-        },
-        {
-            "ID": "19",
-            "FirstName": "Dawid",
-            "LastName": "Olszewski",
-            "Position": "Security Engineer",
-            "Email": "dawid.olszewski@example.com",
-            "Phone": "901-234-567",
-            "Description": "Dawid ensures the company's systems are secure from cyber threats by implementing security measures and monitoring."
-        },
-        {
-            "ID": "20",
-            "FirstName": "Izabela",
-            "LastName": "Pawlak",
-            "Position": "Customer Support",
-            "Email": "izabela.pawlak@example.com",
-            "Phone": "012-345-678",
-            "Description": "Izabela assists customers with inquiries, problems, and ensures a positive customer experience."
-        }
+      {
+        "ID": "1",
+        "FirstName": "Tomasz",
+        "LastName": "Lis",
+        "Position": "Chirurg",
+        "Email": "tomasz.lis@medclinic.com",
+        "Phone": "601-234-987",
+        "Description": "Tomasz wykonuje operacje chirurgiczne, dbając o bezpieczeństwo pacjentów przed, w trakcie i po zabiegach."
+      },
+      {
+        "ID": "2",
+        "FirstName": "Agnieszka",
+        "LastName": "Sawicka",
+        "Position": "Pielęgniarka",
+        "Email": "agnieszka.sawicka@medclinic.com",
+        "Phone": "602-345-678",
+        "Description": "Agnieszka opiekuje się pacjentami, podaje leki i wspiera proces leczenia w szpitalu."
+      },
+      {
+        "ID": "3",
+        "FirstName": "Marcin",
+        "LastName": "Urban",
+        "Position": "Radiolog",
+        "Email": "marcin.urban@medclinic.com",
+        "Phone": "603-456-789",
+        "Description": "Marcin wykonuje i analizuje zdjęcia rentgenowskie oraz inne badania obrazowe."
+      },
+      {
+        "ID": "4",
+        "FirstName": "Natalia",
+        "LastName": "Mikołajczyk",
+        "Position": "Psycholog",
+        "Email": "natalia.mikolajczyk@medclinic.com",
+        "Phone": "604-567-890",
+        "Description": "Natalia prowadzi konsultacje psychologiczne i wspiera pacjentów w trudnych sytuacjach życiowych."
+      },
+      {
+        "ID": "5",
+        "FirstName": "Paweł",
+        "LastName": "Brzeziński",
+        "Position": "Farmaceuta",
+        "Email": "pawel.brzezinski@medclinic.com",
+        "Phone": "605-678-901",
+        "Description": "Paweł wydaje leki, udziela informacji na temat ich stosowania oraz wspiera pacjentów w zakresie farmakoterapii."
+      },
+      {
+        "ID": "6",
+        "FirstName": "Joanna",
+        "LastName": "Zawadzka",
+        "Position": "Fizjoterapeuta",
+        "Email": "joanna.zawadzka@medclinic.com",
+        "Phone": "606-789-012",
+        "Description": "Joanna pomaga pacjentom odzyskać sprawność fizyczną poprzez odpowiednie ćwiczenia i terapie."
+      },
+      {
+        "ID": "7",
+        "FirstName": "Grzegorz",
+        "LastName": "Makowski",
+        "Position": "Anestezjolog",
+        "Email": "grzegorz.makowski@medclinic.com",
+        "Phone": "607-890-123",
+        "Description": "Grzegorz odpowiada za znieczulenie pacjentów podczas operacji oraz monitoruje ich stan."
+      },
+      {
+        "ID": "8",
+        "FirstName": "Katarzyna",
+        "LastName": "Walczak",
+        "Position": "Dietetyk",
+        "Email": "katarzyna.walczak@medclinic.com",
+        "Phone": "608-901-234",
+        "Description": "Katarzyna układa diety dostosowane do potrzeb zdrowotnych pacjentów."
+      },
+      {
+        "ID": "9",
+        "FirstName": "Michał",
+        "LastName": "Sikorski",
+        "Position": "Ratownik Medyczny",
+        "Email": "michal.sikorski@medclinic.com",
+        "Phone": "609-012-345",
+        "Description": "Michał udziela pierwszej pomocy i transportuje pacjentów w stanach zagrożenia życia."
+      },
+      {
+        "ID": "10",
+        "FirstName": "Weronika",
+        "LastName": "Borkowska",
+        "Position": "Położna",
+        "Email": "weronika.borkowska@medclinic.com",
+        "Phone": "610-123-456",
+        "Description": "Weronika wspiera kobiety podczas ciąży, porodu i połogu, zapewniając opiekę i wsparcie."
+      },
+      {
+        "ID": "11",
+        "FirstName": "Artur",
+        "LastName": "Nowiński",
+        "Position": "Ortopeda",
+        "Email": "artur.nowinski@medclinic.com",
+        "Phone": "611-234-567",
+        "Description": "Artur diagnozuje i leczy urazy oraz schorzenia układu kostno-stawowego."
+      },
+      {
+        "ID": "12",
+        "FirstName": "Martyna",
+        "LastName": "Kopeć",
+        "Position": "Recepcjonistka",
+        "Email": "martyna.kopec@medclinic.com",
+        "Phone": "612-345-678",
+        "Description": "Martyna obsługuje pacjentów w rejestracji, umawia wizyty i udziela podstawowych informacji."
+      },
+      {
+        "ID": "13",
+        "FirstName": "Wojciech",
+        "LastName": "Krawczyk",
+        "Position": "Neurolog",
+        "Email": "wojciech.krawczyk@medclinic.com",
+        "Phone": "613-456-789",
+        "Description": "Wojciech specjalizuje się w leczeniu chorób układu nerwowego, takich jak padaczka czy migrena."
+      },
+      {
+        "ID": "14",
+        "FirstName": "Dominika",
+        "LastName": "Janik",
+        "Position": "Logopeda",
+        "Email": "dominika.janik@medclinic.com",
+        "Phone": "614-567-890",
+        "Description": "Dominika prowadzi terapię mowy u dzieci i dorosłych z zaburzeniami komunikacyjnymi."
+      },
+      {
+        "ID": "15",
+        "FirstName": "Sebastian",
+        "LastName": "Kubiak",
+        "Position": "Technik RTG",
+        "Email": "sebastian.kubiak@medclinic.com",
+        "Phone": "615-678-901",
+        "Description": "Sebastian obsługuje aparaty rentgenowskie i dba o jakość wykonanych zdjęć diagnostycznych."
+      },
+      {
+        "ID": "16",
+        "FirstName": "Lena",
+        "LastName": "Mazowiecka",
+        "Position": "Endokrynolog",
+        "Email": "lena.mazowiecka@medclinic.com",
+        "Phone": "616-789-012",
+        "Description": "Lena diagnozuje i leczy zaburzenia hormonalne, takie jak cukrzyca czy choroby tarczycy."
+      },
+      {
+        "ID": "17",
+        "FirstName": "Robert",
+        "LastName": "Bednarek",
+        "Position": "Kardiolog",
+        "Email": "robert.bednarek@medclinic.com",
+        "Phone": "617-890-123",
+        "Description": "Robert zajmuje się chorobami serca i układu krążenia, wykonując badania EKG i echo serca."
+      },
+      {
+        "ID": "18",
+        "FirstName": "Emilia",
+        "LastName": "Tomczak",
+        "Position": "Higienistka stomatologiczna",
+        "Email": "emilia.tomczak@medclinic.com",
+        "Phone": "618-901-234",
+        "Description": "Emilia pomaga w utrzymaniu zdrowia jamy ustnej poprzez zabiegi higienizacyjne i edukację pacjentów."
+      },
+      {
+        "ID": "19",
+        "FirstName": "Bartosz",
+        "LastName": "Jędrzejczak",
+        "Position": "Technik laboratoryjny",
+        "Email": "bartosz.jedrzejczak@medclinic.com",
+        "Phone": "619-012-345",
+        "Description": "Bartosz analizuje próbki biologiczne w laboratorium, wspomagając proces diagnostyki medycznej."
+      },
+      {
+        "ID": "20",
+        "FirstName": "Zuzanna",
+        "LastName": "Rutkowska",
+        "Position": "Ginekolog",
+        "Email": "zuzanna.rutkowska@medclinic.com",
+        "Phone": "620-123-456",
+        "Description": "Zuzanna diagnozuje i leczy choroby kobiece oraz prowadzi ciąże."
+      },
+      {
+        "ID": "21",
+        "FirstName": "Kamil",
+        "LastName": "Wrona",
+        "Position": "Onkolog",
+        "Email": "kamil.wrona@medclinic.com",
+        "Phone": "621-234-567",
+        "Description": "Kamil zajmuje się diagnozowaniem i leczeniem chorób nowotworowych, planując terapie dla pacjentów onkologicznych."
+      },
+      {
+        "ID": "22",
+        "FirstName": "Julia",
+        "LastName": "Markowska",
+        "Position": "Dermatolog",
+        "Email": "julia.markowska@medclinic.com",
+        "Phone": "622-345-678",
+        "Description": "Julia diagnozuje i leczy choroby skóry, włosów i paznokci, dobierając odpowiednią terapię."
+      },
+      {
+        "ID": "23",
+        "FirstName": "Andrzej",
+        "LastName": "Turek",
+        "Position": "Laryngolog",
+        "Email": "andrzej.turek@medclinic.com",
+        "Phone": "623-456-789",
+        "Description": "Andrzej specjalizuje się w leczeniu chorób uszu, nosa i gardła, wykonując także zabiegi laryngologiczne."
+      },
+      {
+        "ID": "24",
+        "FirstName": "Patrycja",
+        "LastName": "Leszczyńska",
+        "Position": "Opiekunka medyczna",
+        "Email": "patrycja.leszczynska@medclinic.com",
+        "Phone": "624-567-890",
+        "Description": "Patrycja pomaga osobom chorym i starszym w codziennych czynnościach i dba o ich komfort."
+      },
+      {
+        "ID": "25",
+        "FirstName": "Damian",
+        "LastName": "Sosnowski",
+        "Position": "Rehabilitant",
+        "Email": "damian.sosnowski@medclinic.com",
+        "Phone": "625-678-901",
+        "Description": "Damian prowadzi terapię usprawniającą dla pacjentów po urazach, operacjach i w trakcie leczenia chorób przewlekłych."
+      }
     ]
-}
+  }
+  

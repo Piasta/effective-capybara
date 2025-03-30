@@ -4,14 +4,14 @@
     
     <VBox class="sapUiSmallMargin">
         <Button 
-            text="Back"
+            text="Cofnij"
             press="onBackPress"
             icon="sap-icon://nav-back"
             type="Transparent"
             class="sapUiSmallMarginTop" />
         
         <Button 
-            text="Edit"
+            text="Edytuj"
             press="onEditPress"
             visible="true"
             type="Emphasized"
@@ -41,7 +41,7 @@
                     <Input value="{employeeModel>/Email}" type="Email" editable="{=${editModel>/editMode} }"/>
 
                     <!-- Numer telefonu -->
-                    <Text text="Numer telefonu: " />
+                    <Text text="Telefon: " />
                     <Input value="{employeeModel>/Phone}" type="Tel" editable="{=${editModel>/editMode} }"/>
                 </VBox>
             </HBox>
@@ -53,8 +53,8 @@
 
         <!-- Przycisk Save oraz Cancel w trybie edycji -->
         <HBox visible="{${editModel>/editMode}}">
-            <Button text="Save" press="onSavePress"/>
-            <Button text="Cancel" press="onCancelPress"/>
+            <Button text="Zapisz" press="onSavePress"/>
+            <Button text="Anuluj" press="onCancelPress"/>
         </HBox>
     </VBox>
     

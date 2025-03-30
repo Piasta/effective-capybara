@@ -7,17 +7,17 @@
         <VBox>
             <fb:FilterBar id="filterbar" persistencyKey="employeeFilterKey" useToolbar="false" filterChange="onFilterChange">
                 <fb:filterGroupItems>
-                    <fb:FilterGroupItem name="Name" label="Name" groupName="Group1" visibleInFilterBar="true">
+                    <fb:FilterGroupItem name="Name" label="Imię" groupName="Group1" visibleInFilterBar="true">
                         <fb:control>
                             <Input id="idNameInput" liveChange="onFilterChange" />
                         </fb:control>
                     </fb:FilterGroupItem>
-                    <fb:FilterGroupItem name="LastName" label="Last Name" groupName="Group1" visibleInFilterBar="true">
+                    <fb:FilterGroupItem name="LastName" label="Nazwisko" groupName="Group1" visibleInFilterBar="true">
                         <fb:control>
                             <Input id="idLastNameInput" liveChange="onFilterChange" />
                         </fb:control>
                     </fb:FilterGroupItem>
-                    <fb:FilterGroupItem name="Position" label="Position" groupName="Group1" visibleInFilterBar="true">
+                    <fb:FilterGroupItem name="Position" label="Stanowisko" groupName="Group1" visibleInFilterBar="true">
                         <fb:control>
                             <Input id="idPositionInput" liveChange="onFilterChange" />
                         </fb:control>
@@ -28,8 +28,8 @@
                 <headerToolbar>
                     <OverflowToolbar id="otbSubheader">
                         <ToolbarSpacer/>
-                        <Button icon="sap-icon://add" text="Add Employee" tooltip="Add Employee" press="onAddEmployee" />
-                        <Button id="removeEmployeeBtn" icon="sap-icon://delete" text="Remove Employee" tooltip="Remove Employee" press="onDeleteEmployee" enabled="false" />
+                        <Button icon="sap-icon://add" text="Dodaj pracownika" tooltip="Add Employee" press="onAddEmployee" />
+                        <Button id="removeEmployeeBtn" icon="sap-icon://delete" text="Usuń pracownika" tooltip="Remove Employee" press="onDeleteEmployee" enabled="false" />
                     </OverflowToolbar>
                 </headerToolbar>
                 <columns>
